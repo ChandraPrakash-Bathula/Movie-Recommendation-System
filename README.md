@@ -1,7 +1,7 @@
-# Movie-Recommendation-System : A Machine Learning Case Study for Movie Recommendation System: Collaborative Filtering and Content-Based Filtering
-
+# Movie-Recommendation-System
 A Comparative Machine Learning Case Study: Movie Recommendation System Using Collaborative Filtering and Content-Based Filtering
 
+ A Machine Learning Case Study for Movie Recommendation System: Collaborative Filtering and Content-Based Filtering
 
 Abstract:
 Movie recommendation systems have become an essential part of modern online platforms, providing personalized suggestions to users based on their preferences and viewing history. This case study explores two popular approaches for building movie recommendation systems: collaborative filtering and content-based filtering. Collaborative filtering leverages user-item interaction data to identify similar users and recommend items based on their preferences, while content-based filtering focuses on the characteristics of items and recommends similar items based on their features. The study aims to compare the performance of these two approaches and highlight their strengths and limitations.
