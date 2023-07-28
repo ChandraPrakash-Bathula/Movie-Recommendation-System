@@ -1,51 +1,38 @@
 # Movie-Recommendation-System
 A Comparative Machine Learning Case Study: Movie Recommendation System Using Collaborative Filtering and Content-Based Filtering
 
- A Machine Learning Case Study for Movie Recommendation System: Collaborative Filtering and Content-Based Filtering
+# Netflix Movie Recommendation System
 
-Abstract:
-Movie recommendation systems have become an essential part of modern online platforms, providing personalized suggestions to users based on their preferences and viewing history. This case study explores two popular approaches for building movie recommendation systems: collaborative filtering and content-based filtering. Collaborative filtering leverages user-item interaction data to identify similar users and recommend items based on their preferences, while content-based filtering focuses on the characteristics of items and recommends similar items based on their features. The study aims to compare the performance of these two approaches and highlight their strengths and limitations.
+![Python](https://img.shields.io/badge/Python-3.7%2B-brightgreen.svg) ![Machine Learning](https://img.shields.io/badge/Machine_Learning-Collaborative_Filtering%2C_Content_Based-yellow.svg) ![Recommendation System](https://img.shields.io/badge/Recommendation_System-Netflix_Movie-blue.svg) ![XGBoost](https://img.shields.io/badge/XGBoost-Gradient_Boosting-orange.svg)
 
-1. Introduction:
-   - Importance of movie recommendation systems in today's digital landscape.
-   - Overview of collaborative filtering and content-based filtering methodologies.
-   - Objectives of the case study.
+## Overview
 
-2. Data Collection and Preprocessing:
-   - Description of the movie dataset used in the study.
-   - Data preprocessing steps, such as handling missing values and data normalization.
+This project aims to build an advanced Movie Recommendation System for Netflix, leveraging both collaborative filtering and content-based filtering techniques. The system predicts users' preferences by analyzing their past movie ratings, providing personalized movie suggestions. The implementation utilizes Surprise-based Singular Value Decomposition (SVD), K-Nearest Neighbors (KNN) algorithms, and XGBoost Regression to achieve accurate movie predictions.
 
-3. Collaborative Filtering:
-   - User-Item Interaction Matrix: Creating a matrix to represent user-item interactions.
-   - Similarity Metrics: Exploring different similarity metrics (e.g., cosine similarity, Pearson correlation) to find similar users or items.
-   - User-Based Collaborative Filtering: Recommending movies to users based on the preferences of similar users.
-   - Item-Based Collaborative Filtering: Recommending movies to users based on similar movies they have watched.
-   - Evaluation Metrics: Measuring the performance of collaborative filtering using metrics like RMSE and precision-recall.
+## Steps Implemented
 
-4. Content-Based Filtering:
-   - Feature Extraction: Extracting meaningful features from movie attributes (e.g., genre, director, actors).
-   - TF-IDF Vectorization: Converting textual data into numerical representations using TF-IDF.
-   - Movie Similarity: Calculating similarity between movies based on their features.
-   - Content-Based Recommendations: Recommending movies to users based on their historical preferences and movie features.
-   - Evaluation Metrics: Evaluating the content-based filtering performance using metrics like accuracy and F1-score.
+1. Data Collection: We collected a large dataset of anonymous movie ratings from Netflix to build our recommendation system.
 
-5. Hybrid Approach:
-   - Combining Collaborative Filtering and Content-Based Filtering: Exploring hybrid methods to leverage the strengths of both approaches.
-   - Ensemble Techniques: Implementing ensemble methods to improve recommendation accuracy.
+2. Data Preprocessing: The collected data was cleaned and processed to ensure high-quality and reliable recommendations.
 
-6. Results and Discussion:
-   - Comparative analysis of collaborative filtering and content-based filtering results.
-   - Performance of hybrid approach compared to individual methods.
-   - Insights into the strengths and limitations of each approach.
+3. Collaborative Filtering: We used Surprise-based SVD and KNN algorithms to implement collaborative filtering, predicting movie ratings based on user behavior.
 
-7. Deployment and Future Enhancements:
-   - Deploying the recommendation system on a web platform.
-   - Addressing scalability and real-time recommendation challenges.
-   - Exploring advanced techniques such as matrix factorization and deep learning for improvements.
+4. Content-Based Filtering: Content-based filtering was implemented to recommend movies based on the movie's features, such as title, genre, and cast.
 
-8. Conclusion:
-   - Summary of findings and key takeaways.
-   - The relevance of collaborative filtering and content-based filtering in recommendation systems.
-   - Future directions and potential areas of research.
+5. Model Evaluation: We evaluated various models and compared their performance using Root Mean Squared Error (RMSE) and Mean Absolute Percentage Error (MAPE).
 
-In this case study, we aim to provide a comprehensive understanding of collaborative filtering and content-based filtering in movie recommendation systems. By comparing their performance and discussing their implications, we seek to help businesses and developers make informed decisions while building recommendation engines tailored to their specific use cases.
+## Observations
+
+- **SVD Model**: The Surprise-based SVD algorithm exhibited impressive performance, resulting in low RMSE values and accurate predictions.
+
+- **KNN Model**: The KNN-based collaborative filtering approach also performed well, producing reliable and relevant movie recommendations.
+
+- **XGBoost Regression**: The addition of XGBoost Regression significantly improved the overall prediction accuracy, further enhancing the recommendation system.
+
+- **Content-Based Filtering**: The content-based filtering approach provided diverse recommendations based on movie features, adding a unique dimension to the recommendations.
+
+- **Consideration of Business Objectives**: The system design considered business objectives such as interpretability and non-critical latency requirements, making it more user-friendly.
+
+## Conclusion
+
+The Netflix Movie Recommendation System combines collaborative filtering and content-based filtering techniques to deliver personalized and accurate movie suggestions. The inclusion of XGBoost Regression further enhances the prediction accuracy. The implementation's success is evident from the achieved RMSE of 1.075 and MAPE of 35.02 on the test data, indicating the system's efficiency in providing relevant movie recommendations. The project represents a significant step forward in building a comprehensive and engaging movie recommendation engine for Netflix users.
