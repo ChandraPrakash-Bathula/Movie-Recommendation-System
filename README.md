@@ -5,7 +5,7 @@ A Comparative Machine Learning Case Study: Movie Recommendation System Using Col
 
 ![Python](https://img.shields.io/badge/Python-3.7%2B-brightgreen.svg) ![Machine Learning](https://img.shields.io/badge/Machine_Learning-Collaborative_Filtering%2C_Content_Based-yellow.svg) ![Recommendation System](https://img.shields.io/badge/Recommendation_System-Netflix_Movie-blue.svg) ![XGBoost](https://img.shields.io/badge/XGBoost-Gradient_Boosting-orange.svg)
 
-## Overview Of the Project :
+## Overview Of this Project :
 
 This project aims to build an advanced Movie Recommendation System for Netflix, leveraging both collaborative filtering and content-based filtering techniques. The system predicts users' preferences by analyzing their past movie ratings, providing personalized movie suggestions. The implementation utilizes Surprise-based Singular Value Decomposition (SVD), K-Nearest Neighbors (KNN) algorithms, and XGBoost Regression to achieve accurate movie predictions.
 
