@@ -9,7 +9,7 @@ A Comparative Machine Learning Case Study: Movie Recommendation System Using Col
 
 This project aims to build an advanced Movie Recommendation System for Netflix, leveraging both collaborative filtering and content-based filtering techniques. The system predicts users' preferences by analyzing their past movie ratings, providing personalized movie suggestions. The implementation utilizes Surprise-based Singular Value Decomposition (SVD), K-Nearest Neighbors (KNN) algorithms, and XGBoost Regression to achieve accurate movie predictions.
 
-## Steps Implemented in the Project.
+## Steps Implemented in this Project :
 
 1. Data Collection: We collected a large dataset of anonymous movie ratings from Netflix to build our recommendation system.
 
