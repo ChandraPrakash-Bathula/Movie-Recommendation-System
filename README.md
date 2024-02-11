@@ -11,9 +11,9 @@ This project aims to build an advanced Movie Recommendation System for Netflix, 
 
 ## Steps Implemented in this Project :
 
-1. Data Collection: We collected a large dataset of anonymous movie ratings from Netflix to build our recommendation system.
+### 1. Data Collection: We collected a large dataset of anonymous movie ratings from Netflix to build our recommendation system.
 
-2. Data Preprocessing: The collected data was cleaned and processed to ensure high-quality and reliable recommendations.
+### 2. Data Preprocessing: The collected data was cleaned and processed to ensure high-quality and reliable recommendations.
 
 3. Collaborative Filtering: We used Surprise-based SVD and KNN algorithms to implement collaborative filtering, predicting movie ratings based on user behavior.
 
