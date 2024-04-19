@@ -1,7 +1,7 @@
 # 🎬 Netflix Movie Recommendation System 
 A Comparative Machine Learning Case Study: Movie Recommendation System Using Collaborative Filtering and Content-Based Filtering with Netflix Dataset.
 
-# Netflix Movies Recommendation System.
+# Netflix Movies Recommendations System
 
 ![Python](https://img.shields.io/badge/Python-3.7%2B-brightgreen.svg) ![Machine Learning](https://img.shields.io/badge/Machine_Learning-Collaborative_Filtering%2C_Content_Based-yellow.svg) ![Recommendation System](https://img.shields.io/badge/Recommendation_System-Netflix_Movie-blue.svg) ![XGBoost](https://img.shields.io/badge/XGBoost-Gradient_Boosting-orange.svg)
 
