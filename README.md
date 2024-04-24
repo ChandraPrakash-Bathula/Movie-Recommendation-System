@@ -1,4 +1,4 @@
-# 🎬 Netflix Movie Recommendation System 
+# 🎬 Netflix Movie Recommendations System 
 A Comparative Machine Learning Case Study: Movie Recommendation System Using Collaborative Filtering and Content-Based Filtering with Netflix Dataset.
 
 # Netflix Movies Recommendations System
